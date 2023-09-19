@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: hsl(212, 45%, 89%);
+      }
+
+      h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: hsl(218, 44%, 22%);
+      }
+
+      p {
+        margin: 15px 0;
+        font-size: 15px;
+        color: hsl(220, 15%, 55%);
+      }
+
+      .code-container {
+        font-family: "Outfit", sans-serif;
+        border-radius: 12px;
+        margin: 250px auto;
+        padding: 15px;
+        width: 300px;
+        background-color: hsl(0, 0%, 100%);
+        box-shadow: 5px 5px 90px -45px hsl(219, 15%, 55%);
+      }
+
+      .qr-image {
+        width: 100%;
+        border-radius: 12px;
+      }
+
+      .qr-info {
+        margin-top: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="code-container">
+      <div class="qr-code">
+        <img class="qr-image" src="images/image-qr-code.png" alt="QR Code" />
+      </div>
+      <div class="qr-info">
+        <h1 class="info-header">
+          Improve your front-end skills by building projects
+        </h1>
+        <p class="info-body">
+          Use the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </article>
+  </body>
+</html>
